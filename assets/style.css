@@ -21,7 +21,7 @@ html {
 body{
 	height: 100vh;
 	background-color: black;
-	background-image: url('assets/images/poster_background.jpg');
+	background-image: url('images/poster_background.jpg');
 }
 
 .container-info{
