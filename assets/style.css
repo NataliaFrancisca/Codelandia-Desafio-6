@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=B612&display=swap&family=Montserrat:wght@300&display=swap');
+
+:root{
+	--blue: #0072D2;
+	--yellow: #FFA800;
+	--black: #131318;
+	--white: #FFFFFF;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body{
+	height: 100vh;
+	background-color: black;
+	background-image: url('assets/images/poster_background.jpg');
+}
+
+.container-info{
+	background-color: rgba(000,000,000,.7);
+	height: 100vh;
+	width: 100vw;
+	position: absolute;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	color: var(--white);
+	font-family: 'B612', sans-serif;
+}
+
+.container-info h2{
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 24px;
+
+	margin-top: 4.5rem;
+}
+
+.container-info h1{
+	font-size: 9.6rem;
+	font-weight: 700;
+	line-height: 117px;
+
+	margin-top: 3rem;
+
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+.info{
+	margin-top: 60px;
+	display: flex;
+}
+
+.info img{
+	width: 184px;
+	height: 267px;
+
+	border-radius: 20px;
+}
+
+.details{
+	margin-left: 73px;
+	width: 722px;
+	height: 267px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.details p{
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 32px;
+}
+
+.more-details{
+	display: flex;
+	justify-content: space-between;
+}
+
+.more-details span{
+	display: flex;
+	align-items: center;
+
+	font-size: 24px;
+}
+
+.more-details span img{
+	width: 30px;
+	height: 30px;
+	margin-right: 12px;
+}
+
+.recomendation img{
+	width: 40px;
+	height: 40px;
+}
+
+.container-buttons-watch button{
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 22px;
+	border-radius: 3px;
+}
+
+.container-buttons-watch button a{
+	text-decoration: none;
+	color: var(--white);
+
+	height: 100%;
+	width: 100%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	text-transform: uppercase;
+}
+
+.container-buttons-watch button:nth-child(1){
+	width: 184px;
+	height: 52px;
+
+	background-color: var(--blue);
+}
+
+.container-buttons-watch button:nth-child(2){
+	width: 150px;
+	height: 52px;
+
+	background-color: var(--black);
+
+	margin-left: 21px;
+	border: solid var(--white) 1px;
+}
