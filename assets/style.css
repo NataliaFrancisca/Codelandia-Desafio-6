@@ -13,15 +13,17 @@
 	border: 0;
 	box-sizing: border-box;
 }
+html, body { 
+	height: 100%;
+}
 
 html {
   font-size: 62.5%;
 }
 
 body{
-	height: 100vh;
 	background-color: black;
-	background-image: url('images/poster_background.jpg');
+	background: black url('images/poster_background.jpg') no-repeat top/cover;
 }
 
 .container-info{
@@ -145,4 +147,77 @@ body{
 
 	margin-left: 21px;
 	border: solid var(--white) 1px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px)  {
+	
+	body{
+		width: 100%;
+		height: 800px;
+		background-attachment: fixed;
+	}
+
+	.container-info{
+		height: auto;
+		padding: 1rem 2rem 1rem 2rem;
+
+	}
+
+	.container-info h1{
+		font-size: 5rem;
+	}
+
+	.container-info h1, h2{
+		margin-top: 2rem;
+	}
+
+	.info{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		margin-top: 2rem;
+		align-items: center;
+		padding: 3rem;
+	}
+
+	.details{
+		margin-left: 0;
+		margin-top: 2rem;
+		width: 100%;
+		height: auto;
+	}
+
+	.details p{
+		text-align: justify;
+		font-size: 1.9rem;
+		margin-bottom: 3rem;
+	}
+
+	.more-details{
+		display: flex;
+		justify-content: space-between;
+		gap: 1.2rem;
+	}
+
+	.more-details span{
+		font-size: 1.5rem;
+	}
+
+	.more-details span img{
+		width: 25px; 
+		height: 25px; 
+		margin-right: 5px;
+	}
+
+	.recomendation img{
+		width: 20px;
+		height: 20px; 
+	}
+
+	.container-buttons-watch {
+		display: flex;
+		margin-top: 2rem;
+	}
+
+	
 }
