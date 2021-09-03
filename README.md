@@ -14,4 +14,4 @@ _________
 
 #### Link do projeto que estou desenvolvendo: 
 
-🔗 
+🔗 https://codelandia-startup-nf.netlify.app/
